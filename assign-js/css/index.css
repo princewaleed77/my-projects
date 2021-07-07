@@ -1,0 +1,149 @@
+*{
+    box-sizing: border-box;
+}
+body,html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* scroll-behavior: smooth; */
+    /* overflow: hidden; */
+}
+.home{
+    position: relative;
+    background-image: url(../images/events-heavenly-header.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+.layer{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(226, 40, 52, 0.6);
+    color: white;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+.layer .sideNave{
+position: fixed;
+padding-top: 40px;
+left: -20%;
+top: 0;
+opacity: 0.9;
+width: 20%;
+z-index: 8888;
+}
+
+.layer .sideNave .links{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.layer .sideNave a{
+    margin-top: 15px;
+    padding: 15px;
+    font-size:larger;
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+.main-heading {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.open{
+    position: absolute;
+    top: 50%;
+    left: 0%;
+}
+/* ==================== */
+/* section 2 Acordion */
+#details{
+    margin: 100px auto;
+}
+.card-header{
+    background-color: #e27187;
+    color: white;
+    border: none;
+}
+.card-header .btn-link{
+    color: white;
+    text-decoration: none;
+}
+.card-header .btn-link:focus{
+    box-shadow: none;
+}
+
+/* ========================= */
+ /*section 3 timers  */
+
+.timers{
+    background-image: url(../images/invitation-2508607__340.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+.counter{
+    
+    
+    background-color: rgba(226, 113, 135,0.6);
+
+}
+.timer{
+    color: white;
+    font-size: 24px;
+    font-weight: 400;
+}
+/* ====================== */
+/* section 3 contact us */
+.contact{
+   margin-top: 10rem; 
+}
+.joinus h3{
+    text-transform: uppercase;
+    font-size: 40;
+    font-weight: 700;
+    margin:40px 0;
+}
+
+.info h5{
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.form-control{
+    border-radius: 0;
+    height: 3rem;
+}
+.btn-lg{
+    background-color: #d62e33;
+    border-radius: 0;
+    color: white;
+    font-size: medium;
+    padding: 10px 20px;
+}
+.btn-lg:hover{
+    color: white;
+}
+#counter{
+    color:red;
+    font-weight: 400;
+    font-size: larger;
+}
+
+/* ================================ */
+
+.email{
+    color: red;
+    font-weight: 400;
+    font-size: larger;
+}
+
+
+
+
+/* ======================== */
+
+

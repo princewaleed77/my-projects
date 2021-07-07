@@ -1,0 +1,28 @@
+
+.bg-light{
+    background:linear-gradient(#aaa,#aaa) ;
+}
+
+#display{
+    margin: 25px auto;
+    /* display: none; */
+}
+.main , header{
+    border-bottom: 1px solid #000;
+}
+.display-block{
+    display: block;
+}
+
+#warning{
+    display: none;
+    padding: 5px;
+    font-size: 1.5em;
+    background-color: yellow;
+    color: red;
+    border-radius: 10px;
+}
+
+input:focus{
+    box-shadow: 15px 17px 20px 8px rgba(0, 0, 0, 1);
+}
